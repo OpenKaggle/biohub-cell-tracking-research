@@ -1,0 +1,15 @@
+Fold 0: 120 train, 8 test
+Loading train (120 datasets)...
+  train done: 11625 windows total
+Loading test (8 datasets)...
+  test done: 767 windows total
+max_nodes=33
+Using device: cuda | visible CUDA GPUs: 2
+DataParallel: UNet split across 2 GPUs (effective per-GPU batch 4)
+Model parameters: 2,076,706
+Starting training for 1 epochs (batch_size=8)...
+Detection loss: weight=1.0, neg_weight=0.01
+  [timing] data: 19.0s (0%) | forward: 1688.4s (23%) | backward: 5731.8s (77%) | total: 7439.2s
+  Epoch   0/1 | edge=0.0056 | det=0.0177 | test_loss=0.0019 | acc=0.9986 | recall=0.9278 | best=0.9265 * | train=7439.5s test=89.4s
+
+Best score (acc*recall): 0.9265, saved to /kaggle/working/budgeted_oof_repo/weights/budgeted_embryo_oof_1ep_recovery/split_0/edge_predictor_best.pth

@@ -1,0 +1,45 @@
+schema_version: 1
+repository:
+  name: biohub-cell-tracking-research
+  url: https://github.com/openkaggle/biohub-cell-tracking-research
+snapshot:
+  kind: public-archive-snapshot
+  status: archive_snapshot
+  status_note: >-
+    Reviewable archive of selected research methods and lightweight evidence;
+    no current competition-state claim is made by this release metadata.
+  rules_checked_at: null
+  rules_check_note: >-
+    The root README does not record a rules-check date.
+competitions:
+  - name: BioHub Cell Tracking During Development
+    url: https://www.kaggle.com/competitions/biohub-cell-tracking-during-development
+included:
+  - original scripts, tests, and methods
+  - campaign records and lightweight provenance receipts
+  - dependency license texts and third-party notice inventory
+excluded:
+  - competition data
+  - generated artifacts and output directories
+  - row-level test predictions, test identifiers, and per-frame diagnostics
+  - submission payloads, caches, and virtual environments
+  - upstream royerlab/kaggle-cell-tracking-competition clone
+licensing:
+  original_work: MIT
+  boundary: >-
+    MIT covers only original OpenKaggle code and documentation for which
+    contributors hold rights.
+  third_party: >-
+    Official code, upstream source, models, packages, notebooks, and assets
+    remain governed by their own licenses and the archived notices.
+reproduction:
+  guide: REPRODUCIBILITY.md
+  documented_entry_points:
+    - CAMPAIGN.md
+    - DATA_LINEAGE.md
+    - audit_campaign.py
+    - tests/
+claims:
+  current_final_ready: false
+  current_competition_state_claim: false
+  score_claim_added_by_release_docs: false

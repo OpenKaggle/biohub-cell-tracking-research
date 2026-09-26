@@ -1,0 +1,21 @@
+Fold 0: 120 train, 8 test
+Loading train (120 datasets)...
+  train done: 11625 windows total
+Loading test (8 datasets)...
+  test done: 767 windows total
+max_nodes=33
+Using device: cuda | visible CUDA GPUs: 2
+DataParallel: UNet split across 2 GPUs (effective per-GPU batch 4)
+Model parameters: 2,076,706
+Starting training for 12 epochs (batch_size=8)...
+Detection loss: weight=1.0, neg_weight=0.01
+  [timing] data: 18.6s (0%) | forward: 1803.7s (23%) | backward: 6124.7s (77%) | total: 7947.1s
+  Epoch   0/12 | edge=0.0056 | det=0.0177 | test_loss=0.0019 | acc=0.9986 | recall=0.9278 | best=0.9265 * | train=7947.3s test=94.0s
+  [timing] data: 18.5s (0%) | forward: 1782.9s (23%) | backward: 6087.8s (77%) | total: 7889.3s
+  Epoch   1/12 | edge=0.0009 | det=0.0113 | test_loss=0.0011 | acc=0.9994 | recall=0.9432 | best=0.9426 * | train=7889.5s test=92.9s
+  [timing] data: 18.4s (0%) | forward: 1784.5s (23%) | backward: 6082.8s (77%) | total: 7885.8s
+  Epoch   2/12 | edge=0.0006 | det=0.0094 | test_loss=0.0008 | acc=0.9994 | recall=0.9395 | best=0.9426   | train=7886.0s test=92.9s
+  [timing] data: 18.2s (0%) | forward: 1801.1s (23%) | backward: 6111.8s (77%) | total: 7931.0s
+  Epoch   3/12 | edge=0.0005 | det=0.0080 | test_loss=0.0008 | acc=0.9996 | recall=0.9401 | best=0.9426   | train=7931.2s test=92.5s
+  [timing] data: 18.6s (0%) | forward: 1794.0s (23%) | backward: 6095.2s (77%) | total: 7907.8s
+  Epoch   4/12 | edge=0.0005 | det=0.0069 | test_loss=0.0004 | acc=0.9997 | recall=0.9342 | best=0.9426   | train=7908.0s test=92.9s

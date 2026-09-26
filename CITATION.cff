@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: >-
+  If this archive supports your work, cite it as software and review NOTICE.md
+  for competition and third-party licensing boundaries.
+title: BioHub Cell Tracking Research Archive
+type: software
+authors:
+  - name: OpenKaggle contributors
+repository-code: https://github.com/openkaggle/biohub-cell-tracking-research
+license: MIT
+abstract: >-
+  Public archive snapshot of BioHub Cell Tracking research code, tests,
+  methods, campaign records, and lightweight provenance receipts.

@@ -1,0 +1,19 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "checked_at_utc": "2026-09-09T13:39:11.283864+00:00",
+  "submission_id": 56108120,
+  "submitted_at_utc": "2026-09-08T22:35:41.037000+00:00",
+  "description": "BH-0001 public 0.946 reproduction; public CC0 deps; checksum and topology gates passed",
+  "file_name": "submission.csv",
+  "status": "COMPLETE",
+  "error_description": null,
+  "public_score": "0.944",
+  "private_score": null,
+  "submitted_by": "jahyee",
+  "team_name": "Jiayi Du",
+  "kernel_url": "/code/jahyee/biohub-0-946-public-dependencies-repro?scriptVersionId=348360183",
+  "script_version_id": 348360183,
+  "is_frozen": true,
+  "elapsed_seconds": 54210.246864,
+  "source": "Official Kaggle competition submissions API"
+}

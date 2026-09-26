@@ -1,0 +1,2 @@
+Fold 0: 8 datasets | weights=/kaggle/working/budgeted_oof_repo/weights/budgeted_embryo_oof_1ep_recovery/split_0/edge_predictor_best.pth | device=cuda | window_size=2 | pool_kernel_um=3.0
+Saved 8 predictions to /kaggle/working/budgeted_oof_repo/predictions/unknown/budgeted_embryo_oof_1ep_recovery/split_0

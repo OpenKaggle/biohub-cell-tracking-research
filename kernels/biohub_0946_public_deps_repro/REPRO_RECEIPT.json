@@ -1,0 +1,33 @@
+{
+  "source_kernel": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+  "source_notebook_sha256": "ae8e01a262211045161984e469e8be23e3386bab9140fe12df503dc6a1e010e6",
+  "target_notebook_sha256": "43cf1bb9bf5a37ce4917c157fd47e4f2f4fb12ba25507e6d836123186348635d",
+  "behavioral_change": "none",
+  "dependency_path_substitution_only": true,
+  "replacement_counts": {
+    "/kaggle/input/datasets/reyhanksatria/biohub-tracking-support-pack": 1,
+    "os.environ['BIOHUB_TARGET_ARTIFACT_SLUG'] = 'biohub-tracking-support-pack'": 1,
+    "/kaggle/input/datasets/reyhanksatria/biohub-deepcenterunet3d-center-prior-v1": 3,
+    "/kaggle/input/datasets/reyhanksatria/biohub-temporalunet3d-seed-314159-v1": 1
+  },
+  "datasets": [
+    {
+      "ref": "pilkwang/biohub-tracking-support-pack-50ep-v1",
+      "license": "CC0-1.0",
+      "access": "public"
+    },
+    {
+      "ref": "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+      "license": "CC0-1.0",
+      "access": "public"
+    },
+    {
+      "ref": "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+      "license": "CC0-1.0",
+      "access": "public"
+    }
+  ],
+  "model_thresholds_changed": false,
+  "internet_enabled": false,
+  "gpu": "NvidiaTeslaT4"
+}

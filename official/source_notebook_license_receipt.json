@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-09-09T11:06:55Z",
+  "source": "Authenticated official Kaggle Notebook page",
+  "page_url": "https://www.kaggle.com/code/reyhanksatria/biohub-cell-tracking-0-946-lb",
+  "kernel": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+  "author_display_name": "REYHAN KSATRIA",
+  "visibility": "public",
+  "observed_version": 4,
+  "observed_total_versions": 4,
+  "license_display_text": "This Notebook has been released under the Apache 2.0 open source license.",
+  "license_spdx_identifier": "Apache-2.0",
+  "public_score_displayed": "0.944",
+  "interpretation": "The official notebook page establishes the exact inbound notebook license. It does not by itself establish that a downstream entrant can represent an unrestricted right to license every reused source-code portion solely under the competition's required MIT winner license; Apache-2.0 notice and attribution obligations must be preserved and winner-delivery compatibility must be confirmed or the reused code replaced."
+}

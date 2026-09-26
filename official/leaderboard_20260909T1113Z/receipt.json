@@ -1,0 +1,34 @@
+{
+  "retrieved_at_utc": "2026-09-09T11:13:56Z",
+  "source": "Official Kaggle competition leaderboard API via Kaggle CLI",
+  "competition": "biohub-cell-tracking-during-development",
+  "scope": "public_leaderboard_snapshot",
+  "archive": {
+    "path": "official/leaderboard_20260909T1113Z/biohub-cell-tracking-during-development.zip",
+    "sha256": "2dc572575c29e89346f08bba482a7eacceadec695d4e23e624ed3c61f97a7d44"
+  },
+  "csv_member": {
+    "name": "biohub-cell-tracking-during-development-publicleaderboard-2026-09-09T11:13:56.csv",
+    "sha256": "b55ae9a2d07ac3f720a36de8cd8807680d9a59b5ae47960306e028e470107ecb",
+    "team_rows": 3290
+  },
+  "participant": {
+    "kaggle_username": "jahyee",
+    "team_id": 16856846,
+    "team_name": "Jiayi Du",
+    "rank": 360,
+    "score": 0.944,
+    "submission_count": 1,
+    "top_percent_by_row_rank": 10.9422492401,
+    "teams_strictly_above_score": 331,
+    "teams_at_same_score": 68
+  },
+  "public_reference_points": {
+    "rank_1_score": 0.97,
+    "rank_7_score": 0.957,
+    "rank_8_score": 0.957,
+    "gap_to_rank_1_score": 0.026,
+    "gap_to_rank_7_score": 0.013
+  },
+  "interpretation": "This is a time-stamped public leaderboard diagnostic, not evidence of final prize standing. Final standing is determined by the private leaderboard. The 0.013 public-score gap to row rank 7 does not authorize leaderboard-driven parameter search or another submission without the frozen honest-validation gates."
+}

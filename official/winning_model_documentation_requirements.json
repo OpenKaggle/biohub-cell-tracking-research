@@ -1,0 +1,46 @@
+{
+  "source_url": "https://www.kaggle.com/WinningModelDocumentationGuidelines",
+  "page_title": "Winning Model Documentation Guidelines",
+  "checked_at_utc": "2026-09-09T11:02:30Z",
+  "retrieved_via": "Authenticated official Kaggle web UI",
+  "scope": "Normalized requirement inventory; the competition rules and Kaggle contact control if requirements differ during closeout.",
+  "standard_components": [
+    {
+      "id": "model_summary",
+      "requirements": [
+        "Well-written English Word or PDF unless otherwise approved",
+        "Competition, team, score, rank and team-member information",
+        "Team background and contributions",
+        "Four-to-six-sentence method summary",
+        "Features or equivalent model inputs and transformations",
+        "Training methods and ensemble weighting",
+        "Important findings and differentiators",
+        "Simplified-model tradeoff where relevant",
+        "Training and prediction execution times",
+        "References and external sources"
+      ]
+    },
+    {
+      "id": "submission_model",
+      "requirements": [
+        "Single archive containing all code, non-Kaggle data and trained model artifacts needed for reproduction",
+        "Top-level README.md with exact hardware, platform, third-party software, install, train, predict, side-effect and assumption details",
+        "Configuration files and placement instructions",
+        "Top-level requirements.txt with exact package versions or an exact-version Dockerfile",
+        "Top-level directory_structure.txt",
+        "SETTINGS.json as the single source for train, test, model and output paths",
+        "Serialized trained model and documented checkpoint location",
+        "entry_points.md with data-preparation, training and prediction commands",
+        "Well-commented code that reproduces the leaderboard result within a reasonable margin"
+      ],
+      "notebook_only_note": "For a notebook-only competition, share the notebook with the host as a collaborator; an open-source winner may also make it public."
+    },
+    {
+      "id": "winner_presentation",
+      "requirements": [
+        "One-hour call scheduled by Kaggle with the competition host",
+        "Use the Kaggle winner-presentation template when requested"
+      ]
+    }
+  ]
+}

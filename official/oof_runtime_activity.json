@@ -1,0 +1,151 @@
+{
+  "checked_at_utc": "2026-09-09T11:09:40.800000Z",
+  "kernel": "jahyee/biohub-budgeted-embryo-oof-v1",
+  "script_version_id": 348373083,
+  "run_url": "https://www.kaggle.com/code/jahyee/biohub-budgeted-embryo-oof-v1/edit/run/348373083",
+  "source": "Official authenticated Kaggle Notebook UI Logs page",
+  "kernel_started_at_utc": "2026-09-08T23:09:26Z",
+  "accelerator": "GPU T4 x2",
+  "output_bytes": 0,
+  "activity_observations": [
+    {
+      "observed_at_utc": "2026-09-09T06:38:35.500000Z",
+      "runtime_seconds": 26949.5,
+      "log_items": 4983
+    },
+    {
+      "observed_at_utc": "2026-09-09T06:39:53.200000Z",
+      "runtime_seconds": 27027.2,
+      "log_items": 4997
+    },
+    {
+      "observed_at_utc": "2026-09-09T06:55:57.800000Z",
+      "runtime_seconds": 27991.8,
+      "log_items": 5174
+    },
+    {
+      "observed_at_utc": "2026-09-09T07:17:50.200000Z",
+      "runtime_seconds": 29304.2,
+      "log_items": 5174
+    },
+    {
+      "observed_at_utc": "2026-09-09T07:22:35.400000Z",
+      "runtime_seconds": 29589.4,
+      "log_items": 5465
+    },
+    {
+      "observed_at_utc": "2026-09-09T07:29:34.200000Z",
+      "runtime_seconds": 30008.2,
+      "log_items": 5542
+    },
+    {
+      "observed_at_utc": "2026-09-09T07:44:45.800000Z",
+      "runtime_seconds": 30919.8,
+      "log_items": 5710
+    },
+    {
+      "observed_at_utc": "2026-09-09T08:18:02.800000Z",
+      "runtime_seconds": 32916.8,
+      "log_items": 6064
+    },
+    {
+      "observed_at_utc": "2026-09-09T10:40:20.400000Z",
+      "runtime_seconds": 41454.4,
+      "log_items": 7618
+    },
+    {
+      "observed_at_utc": "2026-09-09T11:09:40.800000Z",
+      "runtime_seconds": 43214.8,
+      "log_items_available": false,
+      "ui_state": "log_table_loading"
+    }
+  ],
+  "activity_delta": {
+    "wall_seconds": 16265.3,
+    "runtime_seconds": 16265.3,
+    "log_items": 2635
+  },
+  "latest_activity_delta": {
+    "wall_seconds": 1760.4,
+    "runtime_seconds": 1760.4,
+    "log_items": null
+  },
+  "latest_activity_assessment": {
+    "seconds_since_latest_log_count_growth": 1760.4,
+    "threshold_seconds": 1800,
+    "threshold_exceeded": false,
+    "classification": "ACTIVE_RUNTIME_GROWTH_CONFIRMED_LOG_TABLE_LOADING"
+  },
+  "latest_ui_observation": {
+    "observed_at_utc": "2026-09-09T06:50:08.400000Z",
+    "runtime_seconds": 27642.4,
+    "latest_visible_log_runtime_seconds": 27021.8,
+    "latest_visible_log_index": 4995,
+    "seconds_since_latest_visible_log": 620.6,
+    "fold_index": 0,
+    "completed_folds": 0,
+    "planned_epochs": 12,
+    "completed_epochs": 3,
+    "current_epoch": 4,
+    "current_batch": 497,
+    "batches_per_epoch": 1454,
+    "current_epoch_percent": 34,
+    "recent_seconds_per_batch": [
+      5.47,
+      5.49,
+      5.24,
+      5.13,
+      5.12,
+      5.45,
+      5.51,
+      5.78,
+      5.66
+    ],
+    "median_seconds_per_batch": 5.49
+  },
+  "projection": {
+    "projected_hours_per_epoch": 2.21735,
+    "projected_training_hours_fold_0": 26.6082,
+    "projected_training_hours_two_folds": 53.2164,
+    "official_runtime_limit_hours": 12,
+    "remaining_hours_at_latest_observation": 0.0,
+    "official_runtime_limit_crossed_by_seconds": 14.8,
+    "includes_inference": false,
+    "assessment": "runtime_infeasible"
+  },
+  "terminal_status_observation": {
+    "checked_at_utc": "2026-09-09T11:39:59.352712Z",
+    "source": "Official Kaggle kernel status and execution log APIs",
+    "status": "CANCEL_ACKNOWLEDGED",
+    "log_lines": 7941,
+    "log_sha256": "4c34750f8bd911b379ae328245c7a559002e83afc4c8c3077dfecf6001593031",
+    "last_logged_runtime_seconds": 43213.788916536,
+    "last_logged_epoch": 4,
+    "last_logged_batch": 525,
+    "batches_per_epoch": 1454
+  },
+  "classification": "RUNTIME_LIMIT_CANCELLATION_ACKNOWLEDGED",
+  "active": false,
+  "stalled": false,
+  "stall_threshold_seconds": 1800,
+  "inference_notes": [
+    "Three completed epochs and the fourth epoch are inferred from the current 497/1454 batch counter and approximately 4,997 accumulated log items; the UI does not label the epoch number on each batch row.",
+    "A later official UI refresh showed 5,174 total log items at 27,991.8 seconds, another 177-item increase; the virtualized table still displayed the earlier batch rows, so no newer exact batch number is claimed.",
+    "At 29,304.2 seconds the refreshed total remained 5,174, producing a 1,312.4-second no-growth window; this is below the 1,800-second stall threshold and is not classified as STALLED.",
+    "At 29,589.4 seconds the official UI exposed 5,465 total log items, an increase of 291 in 285.2 seconds; the apparent pause was a UI refresh interval rather than a stalled kernel.",
+    "At 30,008.2 seconds the official UI exposed 5,542 total log items, another increase of 77 in 418.8 seconds; the run remains active with 3.664 hours left before the 12-hour limit.",
+    "At 30,919.8 seconds the official UI exposed 5,710 total log items, another increase of 168 in 911.6 seconds; the run remains active with 3.411 hours left before the 12-hour limit.",
+    "At 32,916.8 seconds the official UI exposed 6,064 total log items, another increase of 354 in 1,997.0 seconds; the virtualized table still exposes only the first 500 rows, so no newer exact batch number is claimed. The run remains active with 2.856 hours left before the 12-hour limit.",
+    "At 41,454.4 seconds the official UI exposed 7,618 total log items, an increase of 1,554 in 8,537.6 seconds. GPU remained T4 x2 and output remained 0 B. The virtualized table still exposed only the first 500 rows, so no newer exact epoch or batch is claimed. The run remains active with 0.485 hours left before the 12-hour limit.",
+    "At 43,214.8 seconds the authenticated official UI still showed the run active on T4 x2 with output 0 B, while the log table itself was still loading and exposed no count. Runtime advanced another 1,760.4 seconds, and the official status API independently reported RUNNING with no failure. The displayed runtime was 14.8 seconds beyond the nominal 12-hour boundary, so this is treated as active or platform-finalizing rather than a failed or stalled run; no terminal disposition or recovery is authorized.",
+    "At 2026-09-09T11:39:59Z the official API returned terminal status CANCEL_ACKNOWLEDGED and exposed 7,941 log lines. Kaggle's installed official client explicitly includes CANCEL_ACKNOWLEDGED in its terminal-status set. The final log was epoch 4 batch 525/1454 at 43,213.789 seconds, confirming an automatic 12-hour runtime-limit stop rather than a stall or user cancellation.",
+    "The output size remains 0 B because the script writes its accepted receipts only after completing a fold; log growth is the activity signal.",
+    "The official Kaggle CLI log endpoint returned zero lines while the authenticated official UI exposed the live log table."
+  ],
+  "intervention": {
+    "parallel_rerun_allowed": false,
+    "cancelled": false,
+    "next_check": "Record the bound CANCEL_ACKNOWLEDGED terminal disposition, rerun recovery preflight and integrity audit, then launch only the predeclared one-epoch recovery if every gate passes.",
+    "terminal_failure_plan": "After this run becomes terminal, collect minimal official logs and partial receipts, record one runtime failure, then prepare a one-epoch-per-fold corrected run only after a fresh runtime projection."
+  }
+}

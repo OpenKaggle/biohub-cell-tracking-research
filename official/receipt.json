@@ -1,0 +1,160 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "competition_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+  "synced_at_utc": "2026-09-08T21:44:12.320230+00:00",
+  "cli_state": [
+    {
+      "id": 136605,
+      "ref": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+      "title": "Biohub - Cell Tracking During Development",
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+      "description": "Detect and track zebrafish cells through 3D space and time",
+      "organizationName": "Biohub",
+      "organizationRef": null,
+      "category": "Research",
+      "reward": "60,000 Usd",
+      "tags": [
+        {
+          "ref": "biology",
+          "name": "biology",
+          "description": "Explore datasets and kernels about gene expressions, transcriptomics, and even the works of Charles Darwin.",
+          "fullPath": "subject > earth and nature > biology",
+          "competitionCount": 46,
+          "datasetCount": 18101,
+          "scriptCount": 5204,
+          "totalCount": 23351
+        },
+        {
+          "ref": "computer vision",
+          "name": "computer vision",
+          "description": "Teaching a machine to interpret real-world images and videos. Applications include detecting objects, capturing motion, and restoring images.",
+          "fullPath": "technique > computer vision",
+          "competitionCount": 151,
+          "datasetCount": 7547,
+          "scriptCount": 6500,
+          "totalCount": 14198
+        },
+        {
+          "ref": "image",
+          "name": "image",
+          "description": "",
+          "fullPath": "data type > image",
+          "competitionCount": 698,
+          "datasetCount": 63192,
+          "scriptCount": 7103,
+          "totalCount": 70993
+        },
+        {
+          "ref": "video",
+          "name": "video",
+          "description": "",
+          "fullPath": "data type > video data",
+          "competitionCount": 22,
+          "datasetCount": 1520,
+          "scriptCount": 317,
+          "totalCount": 1859
+        },
+        {
+          "ref": "object detection",
+          "name": "object detection",
+          "description": "",
+          "fullPath": "task > object-detection",
+          "competitionCount": 45,
+          "datasetCount": 1632,
+          "scriptCount": 852,
+          "totalCount": 2529
+        },
+        {
+          "ref": "custom metric",
+          "name": "custom metric",
+          "description": "This competition's metric is defined under the 'Evaluation' tab",
+          "fullPath": "",
+          "competitionCount": 0,
+          "datasetCount": 0,
+          "scriptCount": 0,
+          "totalCount": 0
+        }
+      ],
+      "deadline": "2026-09-29T23:59:00.000Z",
+      "kernelCount": 0,
+      "teamCount": 3265,
+      "userHasEntered": true,
+      "userRank": null,
+      "mergerDeadline": "2026-09-22T23:59:00.000Z",
+      "newEntrantDeadline": "2026-09-22T23:59:00.000Z",
+      "enabledDate": "2026-06-29T19:01:13.613Z",
+      "maxDailySubmissions": 5,
+      "maxTeamSize": 5,
+      "evaluationMetric": "CZI Biohub Zebrafish 133605",
+      "awardsPoints": true,
+      "isKernelsSubmissionsOnly": true,
+      "submissionsDisabled": false,
+      "thumbnailImageUrl": null,
+      "hostName": "Biohub",
+      "dateCreated": "2026-04-01T21:58:55.077Z"
+    }
+  ],
+  "rules_acceptance": {
+    "accepted": true,
+    "ui_receipt": "Kaggle displayed: Rules accepted. Good luck!",
+    "optional_marketing_or_data_sharing": "No optional controls were presented in the join dialog."
+  },
+  "pages": [
+    {
+      "name": "rules",
+      "path": "official/pages/rules.md",
+      "sha256": "14a61abea978cda14209163cd047ac8167b3d8f5dc3d450d2e21412f026686bb"
+    },
+    {
+      "name": "Description",
+      "path": "official/pages/description.md",
+      "sha256": "c90ef0ff30c0f7fb17b28aa36124b0eca30fce126a4231a865406e77c4491d77"
+    },
+    {
+      "name": "Evaluation",
+      "path": "official/pages/evaluation.md",
+      "sha256": "4de063dfff996fd734e3d2ae371aefefc1eaea4504baded5a2a073e1742f8027"
+    },
+    {
+      "name": "Timeline",
+      "path": "official/pages/timeline.md",
+      "sha256": "9909260dd296aa4859a5be084d20266b110cd262e2f487e77b8785c685b114dd"
+    },
+    {
+      "name": "data-description",
+      "path": "official/pages/data-description.md",
+      "sha256": "b57de043f06ff05500be69d4c10c293567b55878a947b6c2ca3d568b260534ba"
+    },
+    {
+      "name": "Prizes",
+      "path": "official/pages/prizes.md",
+      "sha256": "d5045fed19eacac1b712f8d5018383b13be4243bbef2803a345da197fc82f0b7"
+    },
+    {
+      "name": "Code Requirements",
+      "path": "official/pages/code-requirements.md",
+      "sha256": "556ed778342f2f9ad5265d9e21aeb6e607281a836cab196412b0dc23a4682191"
+    },
+    {
+      "name": "abstract",
+      "path": "official/pages/abstract.md",
+      "sha256": "db0a9965731e673f096734b32f396b64f1168e4efe3a7ea7694291c5033e7da3"
+    }
+  ],
+  "files": {
+    "count": 24886,
+    "total_bytes": 87609892618,
+    "by_split_count": {
+      "root": 1,
+      "test": 408,
+      "train": 24477
+    },
+    "by_split_bytes": {
+      "root": 890,
+      "test": 1906332008,
+      "train": 85703559720
+    },
+    "manifest_path": "official/file_manifest.csv",
+    "manifest_sha256": "a585c8f16b6a52334fa8555c771210179cbc50713c32c764b5ca80cb883ea306"
+  }
+}

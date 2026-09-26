@@ -1,0 +1,84 @@
+{
+  "checked_at_utc": "2026-09-09T13:36:01.437000Z",
+  "source": "Official authenticated Kaggle Notebook UI Logs page",
+  "kernel": "jahyee/biohub-budgeted-embryo-oof-1ep",
+  "script_version_id": 348522481,
+  "run_url": "https://www.kaggle.com/code/jahyee/biohub-budgeted-embryo-oof-1ep/edit/run/348522481",
+  "kernel_started_at_utc": "2026-09-09T11:46:29.337000Z",
+  "accelerator": "GPU T4 x2",
+  "output_bytes": 0,
+  "activity_observations": [
+    {
+      "observed_at_utc": "2026-09-09T11:47:10.637000Z",
+      "runtime_seconds": 41.3,
+      "log_items_available": false,
+      "ui_state": "log_table_loading"
+    },
+    {
+      "observed_at_utc": "2026-09-09T13:18:25.337000Z",
+      "runtime_seconds": 5516.0,
+      "log_items_available": false,
+      "ui_state": "log_table_loading",
+      "accelerator": "GPU T4 x2",
+      "output_bytes": 0
+    },
+    {
+      "observed_at_utc": "2026-09-09T13:36:01.437000Z",
+      "runtime_seconds": 6572.1,
+      "log_items_available": true,
+      "log_items": 1321,
+      "latest_log_elapsed_seconds": 6565.7,
+      "ui_state": "log_table_loaded",
+      "accelerator": "GPU T4 x2",
+      "output_bytes": 0,
+      "current_fold": 0,
+      "current_epoch": 1,
+      "current_batch": 1196,
+      "batches_per_epoch": 1454
+    }
+  ],
+  "latest_official_status": {
+    "checked_at_utc": "2026-09-09T13:34:37.744391Z",
+    "status": "RUNNING",
+    "failure_message": null,
+    "log_available": false,
+    "log_api_error": null
+  },
+  "activity_delta": {
+    "wall_seconds": 6530.8,
+    "runtime_seconds": 6530.8,
+    "log_items": null
+  },
+  "latest_observation_delta": {
+    "wall_seconds": 1056.1,
+    "runtime_seconds": 1056.1,
+    "log_items": null
+  },
+  "latest_activity_assessment": {
+    "seconds_since_latest_log": 6.4,
+    "threshold_seconds": 1800,
+    "threshold_exceeded": false,
+    "classification": "ACTIVE_LOG_PROGRESS_CONFIRMED"
+  },
+  "runtime_budget": {
+    "epochs_per_fold": 1,
+    "estimated_total_hours_with_reserve": 9.434896846856011,
+    "official_runtime_limit_hours": 12,
+    "headroom_hours": 2.565103153143989
+  },
+  "classification": "ACTIVE_PROGRESS",
+  "active": true,
+  "stalled": false,
+  "stall_threshold_seconds": 1800,
+  "inference_notes": [
+    "At 5,516.0 displayed runtime seconds, the authenticated official Kaggle Logs page still showed GPU T4 x2 and output 0 B while the log table was loading. Runtime increased by 5,474.7 seconds since the first observation, which directly proves continued execution.",
+    "At 6,572.1 displayed runtime seconds, the authenticated page exposed 1,321 log rows through fold 0, epoch 1, batch 1,196 of 1,454. The latest row was stamped 6,565.7 seconds, only 6.4 seconds behind displayed runtime, so the run is actively progressing rather than stalled.",
+    "Output remains 0 B, which is expected until the script completes an accepted fold receipt."
+  ],
+  "intervention": {
+    "parallel_rerun_allowed": false,
+    "cancelled": false,
+    "competition_submission_authorized": false,
+    "next_check": "Use the existing hourly heartbeat to read one official status and at most one authenticated Logs-page snapshot; stay quiet while runtime continues to grow."
+  }
+}
