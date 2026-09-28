@@ -7,7 +7,14 @@ type: software
 authors:
   - name: OpenKaggle contributors
 repository-code: https://github.com/openkaggle/biohub-cell-tracking-research
+url: https://github.com/OpenKaggle/biohub-cell-tracking-research/tree/snapshot-2026-09
 license: MIT
+version: snapshot-2026-09
+date-released: 2026-09-28
 abstract: >-
   Public archive snapshot of BioHub Cell Tracking research code, tests,
   methods, campaign records, and lightweight provenance receipts.
+keywords:
+  - Kaggle
+  - cell tracking
+  - reproducibility
