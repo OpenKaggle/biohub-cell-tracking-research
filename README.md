@@ -1,5 +1,7 @@
 # [2026-09] BioHub Cell Tracking Research Archive
 
+> **Status: Ended — frozen (2026-09-29), final public score 0.946.**
+
 > **Public archive snapshot.** This repository is a reviewable record of the
 > research code, tests, methods, and lightweight receipts that were selected
 > for publication. It is not a complete competition workspace or a claim of
