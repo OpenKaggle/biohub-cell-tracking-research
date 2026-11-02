@@ -2,6 +2,8 @@
 
 > **Status: Ended — frozen (2026-09-29), final public score 0.946.**
 
+**Publication gate: 2026-09-29T23:59Z** (= biohub cell tracking submission end; already elapsed — repo is public-eligible; visibility decision is separate)
+
 > **Public archive snapshot.** This repository is a reviewable record of the
 > research code, tests, methods, and lightweight receipts that were selected
 > for publication. It is not a complete competition workspace or a claim of
